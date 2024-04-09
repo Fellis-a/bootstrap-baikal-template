@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+/* font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --text: black;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(img/hero_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 57px;
+    padding-bottom: 322px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 129px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+}
+
+
+.offer {
+    padding-top: 225px;
+}
+
+.offer p {
+    text-transform: uppercase;
+    color: var(--text);
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 1.875rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.offer h1 {
+    color: var(--text);
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-size: 6.25rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+body .offer .btn {
+
+    text-align: center;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    border-radius: 0;
+    --bs-btn-border-width: 2px;
+}
+
+.about h2 {
+    color: var(--text);
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 72px;
+}
+
+.columns p {
+    text-align: justify;
+    font-weight: 300;
+    /* line-height: 26.03px; */
+
+}
+
+.columns h3 {
+    color: var(--text);
+
+    font-family: "Alegreya Sans SC", sans-serif;
+    /* font-size: 1.5625rem; */
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: var(--text);
+}
+
+@media screen and (max-width:378px) {
+    body header .offer h1 {
+        font-size: 90px !important;
+    }
+
+    body header .offer p {
+        font-size: 25px !important;
+    }
+}
